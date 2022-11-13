@@ -1,0 +1,44 @@
+.table {
+    display: table;         
+    width: auto;       
+    background-color: #c4bbbb;
+    margin: auto;            
+  }
+
+  .tr {
+    display: table-row;
+    width: auto;
+    clear: both;
+  }
+
+  .td {
+    float: left;
+    display: table-column;         
+    width: 200px;
+    text-align: center;  
+    border: 1px solid #000000;       
+  }
+
+.scrolling {
+    width:150px;
+    height:100px;
+    background: #fff;
+    border: 1px solid #C1C1C1;
+    overflow: auto;
+}
+
+.catalog {
+    background-color: #57ecdb;
+}
+
+.text {
+    text-align:  center;
+ }
+
+ .center {
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #57ecdb;
+ }

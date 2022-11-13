@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lab4.css" type="text/css"/>
+    <title>Лабораторная работа № 4</title>
+</head>
+
+<body>
+    <p class="text">Каталог товаров</p>
+    <div class="table">
+        <div class="tr">
+            <div class="td" style="background-color: aliceblue;">Наименование</div>
+            <div class="td" style="background-color: aliceblue;">Цена</div>
+        </div>
+        <div class="tr">
+            <div class="td">Тетрадь</div>
+            <div class="td">100</div>
+        </div>
+        <div class="tr">
+            <div class="td">Пенал</div>
+            <div class="td">200</div>
+        </div>
+        <div class="tr">
+            <div class="td">Циркуль</div>
+            <div class="td">250</div>
+        </div>
+    </div>
+
+    <div class="center">
+
+        <p class="text">Добавить товар в каталог</p>
+        <div class="table">
+            <input class="input" placeholder="Enter the product name" style="margin: 2px"></input>
+            <input class="input" placeholder="Enter a number" style="margin: 2px"></input>
+            <button class="btn" onclick="ButtonAddPressed()" style="margin: 2px">Добавить</button>
+        </div>
+
+        <p class="text">Корзина</p>
+        <div class = "table">
+            <div class="tr">
+                <div class="td" style="background-color: aliceblue;">Наименование</div>
+                <div class="td" style="background-color: aliceblue;">Цена</div>
+            </div>
+        </div>
+
+        <div class = "table" style="margin: auto; margin-top: 30px;">
+            <button class="btn" onclick="ButtonCalculatingPressed()">Рассчитать</button>
+        </div>
+        
+        <p>Итого</p>
+        <div id="total"></div>
+    </div>
+    <script src="lab4.js"></script>
+</body>
+
+</html>
