@@ -1,0 +1,29 @@
+
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: rgb(241, 52, 93);
+}
+
+h1, span {
+    color: blueviolet; 
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+*.property1 {
+    font-size: large; 
+    color: blue;
+}
+
+.property0 {
+    color: rgb(0, 253, 55);
+}
+
+#property2 {
+    font-size: small; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+em#property3 {
+    font-size: smaller; 
+    color: aquamarine;
+}

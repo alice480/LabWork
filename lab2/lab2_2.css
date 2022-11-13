@@ -1,0 +1,19 @@
+.header {
+    color: black;
+    font-size: large;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(102, 192, 228);
+}
+.row {
+    float: left;
+    text-align: center;
+}
+.col {
+    font-size: medium;
+    border-width: 5px;
+    border-color: blue;
+    top: 100%;
+    background-color: aquamarine;
+}

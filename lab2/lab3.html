@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 2 часть 3</title>
+    <link href="https://e-learning.bmstu.ru/iu6/pluginfile.php/7546/mod_folder/content/0/bootstrap.min.css?forcedownload=1"
+        rel="stylesheet">
+    <link rel="stylesheet" href="lab3.css">
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 40px;
+        }
+
+        main {
+            margin-top: 15px;
+        }
+
+        footer {
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .my-primary {
+            background-color: blueviolet;
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark my-primary">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    59
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="https://e-learning.bmstu.ru/iu6/pluginfile.php/7546/mod_folder/content/0/avatar.jpg?forcedownload=1" alt="avatar" width="150" height="150">
+            </div>
+            <div class="col-8">
+                <p>Любой текст</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-4">
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input class="input" type="email" placeholder="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Телефон:</td>
+                        <td><input class="input" type="tel" placeholder="phone"></td>
+                    </tr>
+                    <tr>
+                        <td>ФИО:</td>
+                        <td><input class="input" type="text" placeholder="text"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="btn btn-primary" type="submit">Регистрация</button></td>
+                    </tr>
+                </table>
+            </div>
+            <p></p>
+            <div class="col-4">
+                <table class="table-bordered">
+                    <caption>Расписание</caption>
+                    <tr>
+                        <th>Дисциплина</th>
+                        <th colspan="2">Время</th>
+                    </tr>
+                    <tr>
+                        <td>Физика</td>
+                        <td>08:30</td>
+                        <td>10:05</td>
+                    </tr>
+                    <tr>
+                        <td>Электротехника</td>
+                        <td>10:15</td>
+                        <td>11:50</td>
+                    </tr>
+                    <tr>
+                        <td>Физра</td>
+                        <td>12:20</td>
+                        <td>13:25</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <p></p>
+        <div class="cont">
+            <div class="row">
+                <div class="col" style="font-style: italic">Дисциплина</div>
+                <div class="box"></div>
+                <div class="box stack-top">Время</div>
+            </div>
+            <div class="row">
+                <div class="col">Физика</div>
+                <div class="col">08:30</div>
+                <div class="col">10:05</div>
+            </div>
+            <div class="row">
+                <div class="col">Электротехника</div>
+                <div class="col">10:15</div>
+                <div class="col">11:50</div>
+            </div>
+            <div class="row">
+                <div class="col">Физра</div>
+                <div class="col">12:20</div>
+                <div class="col">13:25</div>
+            </div>
+        </div>
+    </main>
+    <footer class="my-primary">
+        <div class="container">
+            <p class="footer-text">Footer</p>
+        </div>
+    </footer>
+</body>
+
+</html>
