@@ -1,0 +1,8 @@
+<div class="container-sm">
+  <%= form_with url: '/output', method: :post do |form| %>
+    <%= form.number_field :input, value: 1, label: "Введите n"%>
+    <%= form.submit 'Find' %>
+  <% end %>
+</div>
+
+<div id='output-container'></div>
