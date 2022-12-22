@@ -1,0 +1,21 @@
+<br>
+<br>
+<div class="container-sm">
+  <%= simple_form_for :user, :url => { :action => "new" } do |f| %>
+
+    <div class="form-actions">
+      <button><%= f.button :submit, "Registration" %></button>
+    </div>
+  <% end %>
+</div>
+
+<br>
+<br>
+<div class="container-sm">
+  <%= simple_form_for :user, :url => { :action => "entry" } do |f| %>
+
+    <div class="form-actions">
+      <button><%= f.button :submit, "Entrance" %></button>
+    </div>
+  <% end %>
+</div>

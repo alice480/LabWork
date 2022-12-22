@@ -1,0 +1,12 @@
+<div class="container-sm">
+  <%=simple_form_for :data, :url => { :action => "output" } do |form|%>
+    <%= form.input :key, :label => "Число"  %>
+    <%= form.button :submit, "Result"  %>
+  <% end %>
+</div>
+
+<div class="container-sm">
+  <%=simple_form_for :automorphic, :url => { :action => "browse" } do |form|%>
+    <%= form.button :submit, "Browse database" %>
+  <% end %>
+</div>

@@ -1,0 +1,11 @@
+<%= simple_form_for :user, :url => { :action => "find" } do |f| %>
+
+  <div class="form-inputs">
+    <%= f.input :login %>
+    <%= f.input :password %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Entry"%>
+  </div>
+<% end %>

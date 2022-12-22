@@ -1,0 +1,2 @@
+module AutomorphicHelper
+end
