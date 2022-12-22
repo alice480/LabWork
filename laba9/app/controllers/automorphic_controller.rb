@@ -16,11 +16,10 @@ class AutomorphicController < ApplicationController
     return unless check_input
 
     @result = (1..params[:input].to_i).each.select { |num| num if automorph?(num.to_i) }.map { |i| [i, i**2] }
-    
+
     respond_to do |format|
       format.turbo_stream { render :output }
     end
-  
   end
 
   private
